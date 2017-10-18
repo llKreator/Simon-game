@@ -1,0 +1,18 @@
+#Simon{
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    background: rgb(18, 76, 87);
+    // box-shadow:0 0 30px 20px rgb(82, 137, 148);  
+    animation: neon 0.08s ease-in-out infinite alternate;
+    display: flex;
+    justify-content:center;
+}
+@keyframes neon{
+    from{
+        box-shadow:0 0 205px 10px rgb(24, 103, 117);  
+    }
+    to{
+        box-shadow:0 0 210px 10px rgb(24, 103, 117);  
+    }
+}

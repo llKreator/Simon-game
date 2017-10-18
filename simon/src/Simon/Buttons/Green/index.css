@@ -1,0 +1,10 @@
+.green {
+  background: #003000;
+  border-top-left-radius: 100%;
+  transition: all 0.1s;
+}
+
+.greenLighten {
+  background: lime;
+  box-shadow: 0 0 60px 1px #88ff00;
+}

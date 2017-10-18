@@ -1,0 +1,10 @@
+.yellow {
+  background: #323200;
+  border-bottom-left-radius: 100%;
+  transition: all 0.1s;
+}
+
+.yellowLighten {
+  background: yellow;
+  box-shadow: 0 0 60px 1px #ffee00;
+}

@@ -1,0 +1,15 @@
+.StrictBTN {
+  width: 30px;
+  height: 30px;
+  background: #c2c253;
+  border: 3px solid #000;
+  border-radius: 50%;
+  align-self: center;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.StrictBTN:hover {
+  cursor: pointer;
+  background: yellow;
+  box-shadow: 0 0 20px 1px #ffd000;
+}

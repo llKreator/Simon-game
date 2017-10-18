@@ -1,0 +1,10 @@
+.blue {
+  background: #000033;
+  border-bottom-right-radius: 100%;
+  transition: all 0.1s;
+}
+
+.blueLighten {
+  background: blue;
+  box-shadow: 0 0 60px 1px #7a2be2;
+}

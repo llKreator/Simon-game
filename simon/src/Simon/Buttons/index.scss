@@ -1,0 +1,19 @@
+.buttons{
+    align-self: center;
+    display:flex;
+    justify-content: center;
+    width:480px;
+    flex-wrap: wrap;
+}
+.button{
+    width: 235px;
+    height: 235px;
+    display: inline-block;
+    border: 5px solid black;
+    &:hover{
+        cursor:pointer; 
+    }
+}
+.row{
+    height:235px;
+}

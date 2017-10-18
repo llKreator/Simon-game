@@ -1,0 +1,43 @@
+.onOffBTN {
+  width: 70px;
+  font-size: 24px;
+  border: none;
+  margin: 10px auto 0;
+  border-radius: 3px;
+  transition: background 0.2s;
+  outline: none;
+  font-weight: bold;
+  color: #005f81;
+}
+
+.onOffBTN:hover {
+  cursor: pointer;
+}
+
+.Off {
+  background: #ff6246;
+  animation: neonOffBTN 0.08s ease-in-out infinite alternate;
+}
+
+.On {
+  background: #4bfa20;
+  animation: neonOnBTN 0.08s ease-in-out infinite alternate;
+}
+
+@keyframes neonOffBTN {
+  from {
+    box-shadow: 0 0 20px 1px #ff4d36;
+  }
+  to {
+    box-shadow: 0 0 19px 1px #ff4225;
+  }
+}
+
+@keyframes neonOnBTN {
+  from {
+    box-shadow: 0 0 20px 1px #50ff1f;
+  }
+  to {
+    box-shadow: 0 0 19px 1px #33ff00;
+  }
+}

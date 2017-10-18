@@ -1,0 +1,14 @@
+.StrictBTN{
+    width: 30px;
+    height: 30px;
+    background: rgb(194, 194, 83);
+    border: 3px solid #000;
+    border-radius: 50%;
+    align-self: center;
+    transition: background 0.2s, box-shadow 0.2s;
+    &:hover{
+        cursor: pointer;
+        background:rgb(255, 255, 0);
+        box-shadow: 0 0 20px 1px rgb(255, 208, 0);
+    }
+}

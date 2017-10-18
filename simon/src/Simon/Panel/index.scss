@@ -1,0 +1,94 @@
+.panel{
+    width:250px;
+    height:250px;
+    border-radius:100%;
+    background:rgb(11, 0, 20);
+    position:absolute;
+    align-self: center;
+    border:5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.gameTitle{
+    flex-basis: 100%;
+    text-align: center;
+    font-size:45px;
+    font-weight: bold;
+    font-family: 'Nosifer', cursive;
+    color:rgb(195, 55, 255);
+    animation: neonTitle 0.08s ease-in-out infinite alternate;
+}
+.panelRow{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+.controlBTNContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    letter-spacing: 2px;
+    flex-basis: 65px;
+    &:nth-child(2){
+        flex-basis: 79px;
+    }
+}
+.start{
+    color:rgb(0, 140, 255);
+    animation: neonStartText 0.08s ease-in-out infinite alternate;
+    align-self: center;
+}
+.strict{
+    color:rgb(251, 255, 0);
+    animation: neonStrictText 0.08s ease-in-out infinite alternate;
+    align-self: center;
+}
+.strictIndicator{
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto ;
+    top: -13px;
+}
+.strictModeOn{
+    background: rgb(255, 187, 0);
+    animation: neonStrictModeOn 0.08s ease-in-out infinite alternate;
+}
+
+@keyframes neonTitle{
+    from{
+        text-shadow: 0 0 55px rgb(119, 16, 255);
+    }
+    to{
+        text-shadow: 0 0 50px rgb(142, 62, 255);
+    }
+}
+@keyframes neonStartText{
+    from{
+        text-shadow: 0 0 10px rgb(142, 62, 255);
+    }
+    to{
+        text-shadow: 0 0 8px rgb(142, 62, 255);
+    }
+}
+@keyframes neonStrictText{
+    from{
+        text-shadow: 0 0 10px rgb(255, 153, 0);
+    }
+    to{
+        text-shadow: 0 0 8px rgb(255, 153, 0);
+    }
+}
+@keyframes neonStrictModeOn {
+    from{
+        box-shadow: 0 0 8px orange;
+    }
+    to{
+        box-shadow: 0 0 10px orange;
+    }
+}   

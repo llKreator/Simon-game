@@ -1,0 +1,9 @@
+.red{
+    background:rgb(50, 0, 0);
+    border-top-right-radius:100%;
+    transition:all 0.1s;
+}
+.redLighten{
+    background:rgb(255, 0, 0);
+    box-shadow: 0 0 60px 1px rgb(255, 60, 0);
+}

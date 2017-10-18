@@ -1,0 +1,27 @@
+.display{
+    width:70px;
+    height:50px;
+    border-radius: 5px;
+    background:black;
+    border: 1px solid rgb(174, 0, 255);
+    color:rgb(0, 187, 255);
+    font-size:30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: flex;
+    animation: neonDisplay 0.08s ease-in-out infinite alternate;
+    justify-content: center;
+    &>div{
+        align-self: center;
+    }
+}
+@keyframes neonDisplay{
+    from{
+        box-shadow:0 0 30px 1px rgb(153, 0, 255);
+        text-shadow: 0 0 50px rgb(21, 189, 255);
+    }
+    to{
+        box-shadow:0 0 26px 1px rgb(195, 0, 255);
+        text-shadow: 0 0 30px rgb(21, 122, 255);
+    }
+}

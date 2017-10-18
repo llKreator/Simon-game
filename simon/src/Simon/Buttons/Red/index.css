@@ -1,0 +1,10 @@
+.red {
+  background: #320000;
+  border-top-right-radius: 100%;
+  transition: all 0.1s;
+}
+
+.redLighten {
+  background: red;
+  box-shadow: 0 0 60px 1px #ff3c00;
+}
